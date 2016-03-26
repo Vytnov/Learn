@@ -31,7 +31,7 @@ public class PGConnect {
 
         } catch (SQLException e) {
 
-            System.out.println("Connection Failed! Check output console");
+            System.out.println("Connection Failed! Check output console!");
             e.printStackTrace();
             return;
 
